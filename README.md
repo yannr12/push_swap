@@ -1,7 +1,5 @@
 # push_swap
 
-    “Parce que Swap_push, c’est moins naturel.”
-
 Ce projet consiste à trier une liste d'entiers en utilisant uniquement un ensemble limité d'instructions, avec le moins d'opérations possible, en développant ta compréhension des algorithmes de tri et de leur complexité.<br>
 
 ## 📚 Description
