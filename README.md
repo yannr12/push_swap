@@ -2,8 +2,9 @@
 
     “Parce que Swap_push, c’est moins naturel.”
 
-Ce projet consiste à trier une liste d'entiers en utilisant uniquement un ensemble limité d'instructions, avec le moins d'opérations possible, en développant ta compréhension des algorithmes de tri et de leur complexité.
-📚 Description
+Ce projet consiste à trier une liste d'entiers en utilisant uniquement un ensemble limité d'instructions, avec le moins d'opérations possible, en développant ta compréhension des algorithmes de tri et de leur complexité.<br>
+
+## 📚 Description
 
 push_swap est un programme en C qui :
 
@@ -21,20 +22,21 @@ push_swap est un programme en C qui :
 
         rra, rrb, rrr (reverse rotate)
 
-Le but est de minimiser le nombre d’instructions pour valider les performances demandées par le projet tout en respectant les contraintes de norme et de gestion mémoire.
-🚀 Fonctionnalités
+Le but est de minimiser le nombre d’instructions pour valider les performances demandées par le projet tout en respectant les contraintes de norme et de gestion mémoire.<br>
 
-✅ Tri d’une pile d’entiers avec le nombre minimal d’opérations
-✅ Gestion des erreurs (paramètres invalides, doublons, hors int)
-✅ Aucun affichage si aucun argument fourni
-✅ Aucune variable globale
+## 🚀 Fonctionnalités
+
+✅ Tri d’une pile d’entiers avec le nombre minimal d’opérations<br>
+✅ Gestion des erreurs (paramètres invalides, doublons, hors int)<br>
+✅ Aucun affichage si aucun argument fourni<br>
+✅ Aucune variable globale<br>
 ✅ Respect des performances :
 
     Trier 100 nombres aléatoires en < 700 instructions
 
     Trier 500 nombres aléatoires en < 5500 instructions
 
-⚙️ Compilation
+## ⚙️ Compilation
 
 Un Makefile est fourni avec les règles :
 
@@ -44,7 +46,7 @@ Compiler avec :
 
 make
 
-🖥️ Utilisation
+## 🖥️ Utilisation
 
 ./push_swap [liste d'entiers]
 
@@ -77,7 +79,7 @@ Pour compter le nombre d'opérations :
 ARG="4 67 3 87 23"
 ./push_swap $ARG | wc -l
 
-🧪 Tests recommandés
+## 🧪 Tests recommandés
 
 ✅ Avec doublons ou non-entier :
 
@@ -102,7 +104,7 @@ Doit afficher :
 
 OK
 
-🎯 Objectifs pédagogiques
+## 🎯 Objectifs pédagogiques
 
     Compréhension et implémentation d’algorithmes de tri efficaces.
 
@@ -114,7 +116,7 @@ OK
 
     Compréhension des complexités et adaptation selon la taille et la nature des données.
 
-📂 Structure du projet
+## 📂 Structure du projet
 
 push_swap/
 ├── Makefile
@@ -128,14 +130,15 @@ push_swap/
 └── includes/
     └── push_swap.h
 
-✅ Rendu et évaluation
+✅ Rendu et évaluation<br>
 
-✅ Code conforme norme
-✅ Aucun crash ni comportement indéfini
-✅ Pas de fuites mémoire
-✅ Respect des performances demandées
-✅ Fonctionnalité complète et stable
-📌 Références utiles
+✅ Code conforme norme<br>
+✅ Aucun crash ni comportement indéfini<br>
+✅ Pas de fuites mémoire<br>
+✅ Respect des performances demandées<br>
+✅ Fonctionnalité complète et stable<br>
+
+## 📌 Références utiles<br>
 
     Wiki Stack (abstract data type)
 
