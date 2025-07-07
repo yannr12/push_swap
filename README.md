@@ -114,20 +114,6 @@ OK
 
     Compréhension des complexités et adaptation selon la taille et la nature des données.
 
-## 📂 Structure du projet
-
-push_swap/
-├── Makefile
-├── push_swap.c
-├── checker.c (bonus)
-├── src/
-│   ├── parsing.c
-│   ├── sorting.c
-│   ├── operations.c
-│   └── utils.c
-└── includes/
-    └── push_swap.h
-
 ✅ Rendu et évaluation<br>
 
 ✅ Code conforme norme<br>
